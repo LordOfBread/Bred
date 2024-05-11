@@ -77,87 +77,21 @@
     overflow-x: hidden;
     }
 
-    .block1{
+    .block{
     width: 1px;
     height: 1px;
     position: absolute;
-    padding: 350px;
-    padding-top: 320px;
-    padding-bottom: 320px;
-    margin-top: 40px;
-    margin-left: 20px;
-    border: solid white;
-    display:inline;
-        
-    }
-    .block2{
-    width: 1px;
-    height: 1px;
-    position: absolute;
-    padding: 350px;
-    padding-top: 320px;
-    padding-bottom: 320px;
-    margin-left: 1150px;
-    margin-top: 40px;
     border: solid white;
     display:inline;
     }
-    .block3{
-    width: 1px;
-    height: 1px;
-    position: absolute;
-    padding: 350px;
-    padding-top: 320px;
-    padding-bottom: 320px;
-    margin-left: 1150px;
-    margin-top: 800px;
-    border: solid white;
-    display:inline;
-    }
-    .block4{
-    width: 1px;
-    height: 1px;
-    position: absolute;
-    padding: 350px;
-    padding-top: 320px;
-    padding-bottom: 320px;
-    margin-top: 800px;
-    margin-left: 20px;
-    border: solid white;
-    display:inline;
-    }
-    .line1{
-    position: absolute;
-    padding: 0,3px;
-    width: 695px;
-    margin-left: -350px;
-    border: solid white;
-    margin-top: 350px;
-    }
-    .line2{
-    position: absolute;
-    padding: 0,3px;
-    width: 695px;
-    margin-left: -350px;
-    border: solid white;
-    margin-top: 350px;
-    }
-    .line3{
-    position: absolute;
-    padding: 0,3px;
-    width: 695px;
-    margin-left: -350px;
-    border: solid white;
-    margin-top: -1170px;
 
-    }
-    .line4{
+    .line{
     position: absolute;
+    border: solid white;
     padding: 0,3px;
     width: 695px;
     margin-left: -350px;
-    border: solid white;
-    margin-top: -1170px;
+    margin-top: 350px;
     }
     .lower_part{
     display:flex;
