@@ -1,0 +1,190 @@
+
+
+
+    body{
+    margin: 0;
+    background-color: #030203;
+    color: #000;
+    }
+    .header{
+    height: 140px;
+    background-color: #060707;
+    display: flex;
+    border: thick double darkred;
+    justify-content: auto;
+    }
+    .logo{
+    position: absolute;
+    width: 80px;
+    left: 40px;
+    top: 35px;
+    display: flex;
+    border: aliceblue solid;
+    }
+    .menu{
+    display: flex;
+    color: aliceblue;
+    border-radius: 6px;
+    width: 120px;
+    justify-content: space-evenly;
+    border: solid white;
+    margin: auto;
+    }
+    
+    .profile{
+    display: flex;
+    color: azure;
+    border: solid gray;
+    border-width: 0.2px;
+    width: 70px;
+    justify-content: space-around;
+    margin: auto;
+    }
+    .profile-picture{
+    position: absolute;
+    right: 270px;
+    top: 45px;
+    margin: auto;
+    display: flex;
+    width: 60px;
+    border: solid grey;
+    border-width: 0.2px;
+    }
+    .container{
+    display: flex;
+    margin: auto;
+    }
+    .main-text{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative; 
+    text-align:justify;
+    text-size-adjust: auto;
+    width: 680px;
+    height: 340px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+    .bottom-text{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative; 
+    text-align:justify;
+    text-size-adjust: auto;
+    width: 1737px;
+    height: 230px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+
+    .block1{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    padding: 350px;
+    padding-top: 320px;
+    padding-bottom: 320px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: solid white;
+    display:inline;
+        
+    }
+    .block2{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    padding: 350px;
+    padding-top: 320px;
+    padding-bottom: 320px;
+    margin-left: 1150px;
+    margin-top: 40px;
+    border: solid white;
+    display:inline;
+    }
+    .block3{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    padding: 350px;
+    padding-top: 320px;
+    padding-bottom: 320px;
+    margin-left: 1150px;
+    margin-top: 800px;
+    border: solid white;
+    display:inline;
+    }
+    .block4{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    padding: 350px;
+    padding-top: 320px;
+    padding-bottom: 320px;
+    margin-top: 800px;
+    margin-left: 20px;
+    border: solid white;
+    display:inline;
+    }
+    .line1{
+    position: absolute;
+    padding: 0,3px;
+    width: 695px;
+    margin-left: -350px;
+    border: solid white;
+    margin-top: 350px;
+    }
+    .line2{
+    position: absolute;
+    padding: 0,3px;
+    width: 695px;
+    margin-left: -350px;
+    border: solid white;
+    margin-top: 350px;
+    }
+    .line3{
+    position: absolute;
+    padding: 0,3px;
+    width: 695px;
+    margin-left: -350px;
+    border: solid white;
+    margin-top: -1170px;
+
+    }
+    .line4{
+    position: absolute;
+    padding: 0,3px;
+    width: 695px;
+    margin-left: -350px;
+    border: solid white;
+    margin-top: -1170px;
+    }
+    .lower_part{
+    display:flex;
+    position: absolute;
+    border: solid white;
+    padding: 80px;
+    width: 1737px;
+    bottom: -1000px;
+    top:1700px;
+    height: 80px;
+    }
+
+
+    .Button{
+    background-color: #060707;
+    color: #ffffff;
+    display: flex;
+    width:200px;
+    margin: auto;
+    justify-content: center;
+    }
+
+
+
+
+
+
+
+
+   
