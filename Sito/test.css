@@ -23,7 +23,6 @@
     }
     .menu{
     display: flex;
-    color: aliceblue;
     border-radius: 6px;
     width: 120px;
     justify-content: space-evenly;
@@ -34,7 +33,6 @@
     .profile{
     display: flex;
     color: azure;
-    border: solid gray;
     border-width: 0.2px;
     width: 70px;
     justify-content: space-around;
