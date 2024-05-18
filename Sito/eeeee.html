@@ -10,17 +10,26 @@
     <header>
         <div class='header'>
             <img class='logo'
-                src='MLogo.png'
+                src='Logo.png'
                 alt='F'>
             <div class='menu'>
-                <button class="Button">News</button>
+                <button id = "but"  class="Button" onclick="Transfer()">News</button>
+                <script>
+                    function Transfer(){
+                        but = document.getElementById("but")
+                        but.AddEventListener(onclick, window.location.href = "https://google.com/")  
+                    }
+                </script>
             </div>
             <div class='menu'>
-                <button class="Button">Platforms</button>
+                <button class="Button" onclick="Transfer()">Platforms</button>
+
 
             </div>
             <div class='menu'>
-                <button class="Button">About</button>
+                <button class="Button" 
+                onclick="Transfer()">
+                About</button>
             </div>
             <img class ="profile-picture"
                 src="icon2.png"
@@ -111,4 +120,9 @@
 </body>
 </main>
 </html>
+
+
+
+
+
 
